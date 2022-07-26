@@ -3,7 +3,7 @@
 ## Dopo aver creato il progetto
 
 - Installiamo il pacchetto laravel ui ```composer require laravel/ui:^2.4```
-- Creiamo lo scaffolding Bootstrap con autenticazione ```php artisan ui bootstrap --auth```
+- Creiamo lo scaffolding Vue con autenticazione ```php artisan ui vue --auth```
 - Lanciare ```npm install && npm run dev```
 
 ## Eseguiamo le migration
