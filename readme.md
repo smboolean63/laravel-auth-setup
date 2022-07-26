@@ -24,7 +24,7 @@ definiamo ora le rotte per la parte di backoffice, raggruppandole con namespace,
 Auth::routes();
 
 // Rotte area Admin
-Route::middleware('auth')->namespace('Admin')->prefix('admin')->group(function() {
+Route::middleware('auth')->namespace('Admin')->name('admin.')->prefix('admin')->group(function() {
     Route::get('/home', 'HomeController@index')->name('home');
 });
 
